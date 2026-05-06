@@ -2,7 +2,7 @@
 
 \usepackage[hidelinks]{hyperref}
 
-\title{No title given}
+\title{Mathematically modeling the spread of opinions}
 \author{%
 \IEEEauthorblockN{Aidan Dumalagan}\IEEEauthorblockA{Science \& Engineering\\Manalapan High School\\Englishtown, NJ\\\href{mailto:426adumalagan@frhsd.com}{426adumalagan@frhsd.com}}\and
 \IEEEauthorblockN{Brandon Heller}\IEEEauthorblockA{Science \& Engineering\\Manalapan High School\\Englishtown, NJ\\\href{mailto:426bheller@frhsd.com}{426bheller@frhsd.com}}\and
@@ -24,7 +24,7 @@ pdfkeywords={\keywords}}}
 \maketitle 
 
 \begin{abstract}
-Opinions in social environments are often influenced by their peers through interaction rather than personal decision-making. In a school setting, students frequently discuss a variety of social questions with friends, which can influence how their views ultimately shape up. With our project, we aim to mathematically model how opinions spread within a high school grade by using a voter model. Specifically, using a simulated voter model based on real student data, the structure of social networks and the presence of stubborn individuals will determine whether a consensus will be reached or the groups will remain divided under the question, ``Is it ever okay to lie?'' We made this question inherently ambiguous on purpose, since it will be more likely that opinions will shift through peer interaction.
+Opinions in social environments are often influenced by their peers through interaction rather than personal decision-making. In a school setting, students frequently discuss a variety of social questions with friends, which can influence how their views ultimately shape up. With our project, we aim to mathematically model how opinions spread within a high school grade by using a voter model. We want to address the following hypothesis: over repeated simulations, students with lower stubbornness levels (closer to 0) are more likely to change their opinions over time, leading the network towards a consensus, while higher levels of stubbornness leads to persistent division. The specific opinion that we are going to study will be responses to the question: ``Is it ever okay to lie?'' A random sample of approximately 25 students will be selected from the senior grade using a randomly generated wheel with every student. After being selected, each student will be assigned a numerical ID. We will then collect the student’s initial opinion, neighbor set (amount of friends within the sampled group), influence weight, and stubbornness level. Using the data, each student will be modeled as a node on a graph. The graph will have opinion states, stubbornness parameters, a neighbor set, and an adjacency matrix. This will allow us to create a voter model. This model will be implemented as a computer simulation using network and initial opinion data. We will run the simulation multiple times to observe how opinions evolve. This project combines real survey data with a mathematical voter model to study how opinions spread in a real social setting. It goes far beyond simple equation-based modeling by emphasizing network structure and behavior.
 \end{abstract}
 
 \begin{IEEEkeywords}
